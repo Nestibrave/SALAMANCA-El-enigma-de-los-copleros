@@ -1,0 +1,11 @@
+[gd_scene load_steps=3 format=3 uid="uid://k73uncnl01p1"]
+
+[ext_resource type="PackedScene" uid="uid://uxidsis1pmsa" path="res://Scenes/Level_1.tscn" id="1_4s2ul"]
+[ext_resource type="PackedScene" uid="uid://c744yrs52wqdp" path="res://Scenes/Sonia.tscn" id="1_bekj2"]
+
+[node name="Game" type="Node2D"]
+
+[node name="Level_1" parent="." instance=ExtResource("1_4s2ul")]
+
+[node name="Sonia" parent="." instance=ExtResource("1_bekj2")]
+speed = 120.0
