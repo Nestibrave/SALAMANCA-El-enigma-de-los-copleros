@@ -37,3 +37,14 @@ layer_0/tile_data = PackedInt32Array(3, 0, 0, 4, 0, 0, 5, 0, 0, 6, 0, 0, 7, 0, 0
 [node name="House1" type="Sprite2D" parent="."]
 position = Vector2(146, 106)
 texture = ExtResource("2_shvn5")
+
+[node name="StaticBody2D" type="StaticBody2D" parent="House1"]
+
+[node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="House1/StaticBody2D"]
+polygon = PackedVector2Array(-12, 69, 85, 15, 21, -27, -79, 31)
+
+[node name="Node2D" type="Node2D" parent="House1/StaticBody2D/CollisionPolygon2D"]
+position = Vector2(85, 15)
+
+[node name="Node2D2" type="Node2D" parent="House1/StaticBody2D/CollisionPolygon2D"]
+position = Vector2(-79, 31)
