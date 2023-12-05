@@ -1,18 +1,20 @@
 ea4bc82a6ad023ab7ee23ee620429895
-::res://::1701651002
+::res://::1701726452
 icon.svg::CompressedTexture2D::9078078367119118518::1701650939::1701651004::1::::<><>::
 README.md::TextFile::-1::1701650939::0::1::::<><>::
 ::res://Assets/::1701650939
 ::res://Assets/Characters/::1701650939
-::res://Assets/Characters/Sonia/::1701650939
+::res://Assets/Characters/Sonia/::1701651004
 Sonia.png::CompressedTexture2D::4603915801683892469::1701650939::1701651004::1::::<><>::
-::res://Assets/Houses/::1701650939
-House_1.png::CompressedTexture2D::8830210073756495173::1701650939::1701651004::1::::<><>::
-House_2.png::CompressedTexture2D::6825283334247503594::1701650939::1701651004::1::::<><>::
-House_3.png::CompressedTexture2D::5964003546474960345::1701650939::1701651004::1::::<><>::
+::res://Assets/Houses/::1701731962
+House_1.png::CompressedTexture2D::8830210073756495173::1701728171::1701728202::1::::<><>::
+House_2.png::CompressedTexture2D::6825283334247503594::1701728077::1701728202::1::::<><>::
+House_3.png::CompressedTexture2D::5964003546474960345::1701731960::1701731962::1::::<><>::
 House_4.png::CompressedTexture2D::5769349876950025328::1701650939::1701651004::1::::<><>::
 House_5.png::CompressedTexture2D::2871738998783494154::1701650939::1701651004::1::::<><>::
-::res://Assets/Tiles/::1701650939
+::res://Assets/Tiles/::1701738685
+spritesheet.png::CompressedTexture2D::4277447634696951810::1700372992::1701737292::1::::<><>::
+Tree.png::CompressedTexture2D::1381037711998565545::1701738685::1701738687::1::::<><>::
 TX Plant.png::CompressedTexture2D::5083886223331546923::1701650939::1701651004::1::::<><>::
 TX Player.png::CompressedTexture2D::8887331198055284859::1701650939::1701651004::1::::<><>::
 TX Props.png::CompressedTexture2D::678586172302629648::1701650939::1701651004::1::::<><>::
@@ -22,10 +24,11 @@ TX Struct.png::CompressedTexture2D::2749595912699766971::1701650939::1701651004:
 TX Tileset Grass.png::CompressedTexture2D::222474160730543120::1701650939::1701651004::1::::<><>::
 TX Tileset Stone Ground.png::CompressedTexture2D::1279447375415970863::1701650939::1701651004::1::::<><>::
 TX Tileset Wall.png::CompressedTexture2D::4759009439433681416::1701650939::1701651004::1::::<><>::
-::res://Scenes/::1701650939
-Game.tscn::PackedScene::769685002685329688::1701650939::0::1::::<><>::uid://uxidsis1pmsa::::res://Scenes/Level_1.tscn<>uid://c744yrs52wqdp::::res://Scenes/Sonia.tscn
-Level_1.tscn::PackedScene::1451749613059793260::1701650939::0::1::::<><>::uid://df1d8fs48825::::res://Assets/Tiles/TX Tileset Grass.png<>uid://dx2ojf5obqmnl::::res://Assets/Houses/House_1.png
-Sonia.tscn::PackedScene::7080555892618375893::1701650939::0::1::::<><>::res://Scripts/Sonia.gd<>uid://b6uf25vm8poo0::::res://Assets/Characters/Sonia/Sonia.png
-::res://Scripts/::1701650939
+::res://Scenes/::1701738022
+Game.gd::GDScript::-1::1701727381::0::1::::<>Node2D<>::
+Game.tscn::PackedScene::769685002685329688::1701738022::0::1::::<><>::uid://uxidsis1pmsa::::res://Scenes/Level_1.tscn<>uid://c744yrs52wqdp::::res://Scenes/Sonia.tscn<>res://Scenes/Game.gd
+Level_1.tscn::PackedScene::1451749613059793260::1701738022::0::1::::<><>::uid://df1d8fs48825::::res://Assets/Tiles/TX Tileset Grass.png<>uid://b17a644pl84je::::res://Assets/Tiles/spritesheet.png<>uid://dx2ojf5obqmnl::::res://Assets/Houses/House_1.png<>uid://c4ihoi0kao4w1::::res://Assets/Houses/House_2.png<>uid://cq8ajcyqbuyf6::::res://Assets/Houses/House_3.png<>uid://bg6dee0aofjew::::res://Assets/Houses/House_5.png
+Sonia.tscn::PackedScene::7080555892618375893::1701738022::0::1::::<><>::res://Scripts/Sonia.gd<>uid://b6uf25vm8poo0::::res://Assets/Characters/Sonia/Sonia.png
+::res://Scripts/::1701728961
 GLOBALSCRIPT.gd::GDScript::-1::1701650939::0::1::::<>Node<>::
-Sonia.gd::GDScript::-1::1701650939::0::1::::<>CharacterBody2D<>::
+Sonia.gd::GDScript::-1::1701728961::0::1::::<>CharacterBody2D<>::

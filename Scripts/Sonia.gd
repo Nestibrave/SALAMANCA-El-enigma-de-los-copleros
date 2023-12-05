@@ -5,6 +5,7 @@ var run : bool = false
 
 func _process(delta):
 	Motion_ctrl()
+	Ray_cast_ctrl()
 	pass
 	
 func Motion_ctrl():
@@ -112,5 +113,13 @@ func Speed_ctrl():
 	elif Input.is_action_just_released("Run"):
 		speed = 120
 		run = false
+		pass
+	pass
+	
+func Ray_cast_ctrl():
+	if $SoniaRayCasts/SoniaRayCast2DRight.is_colliding() or $SoniaRayCasts/SoniaRayCast2DLeft.is_colliding() or $SoniaRayCasts/SoniaRayCast2DUp.is_colliding():
+		z_index = 3
+	else:
+		z_index = 1
 		pass
 	pass

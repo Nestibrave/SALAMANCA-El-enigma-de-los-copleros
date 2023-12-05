@@ -10,4 +10,5 @@ script = ExtResource("1_pquk5")
 [node name="Level_1" parent="." instance=ExtResource("1_4s2ul")]
 
 [node name="Sonia" parent="." instance=ExtResource("1_bekj2")]
+position = Vector2(2160, 860)
 speed = 120.0

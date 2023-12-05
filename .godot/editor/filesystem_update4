@@ -1,4 +1,5 @@
 res://Scenes/Game.tscn
+res://Scenes/Game.gd
 res://Scenes/Level_1.tscn
 res://Scenes/Sonia.tscn
-res://Scenes/Game.gd
+res://Scripts/Sonia.gd

@@ -1201,6 +1201,7 @@ radius = 8.0
 height = 44.0
 
 [node name="Sonia" type="CharacterBody2D"]
+z_index = 3
 script = ExtResource("1_x5i84")
 speed = 150.0
 
